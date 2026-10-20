@@ -1,0 +1,72 @@
+/*
+  Fichier : index.css
+  Rôle : mise en forme de la page d’accueil.
+*/
+
+body {
+  margin: 0;
+  background-color: #eeeeee;
+  color: #222222;
+  font-family: Arial, sans-serif;
+}
+
+.site-header {
+  padding: 15px;
+  background-color: #333333;
+  color: white;
+}
+
+.site-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  padding-left: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 4px;
+}
+
+.menu a {
+  color: white;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+}
+
+h1 {
+  color: #333333;
+}
+
+.feature-image {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.feature-image img {
+  width: 100%;
+}
+
+.panel {
+  padding: 12px;
+  border: 1px solid #999999;
+  background-color: #f5f5f5;
+}
+
+.home-links li {
+  margin: 8px 0;
+}
+
+.site-footer {
+  padding: 12px;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
