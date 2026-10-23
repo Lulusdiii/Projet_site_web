@@ -75,5 +75,20 @@ footer {
     font-size: 13px;
     text-align: center;
 }
+/*
+  Fichier : CV_EN.css
+  Rôle : définir la position des drapeaux pour changer la langue du CV
+  Projet : site web personnel sur l’automobile
+*/
 
+.drapeaux {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+}
 
+.drapeaux img {
+    width: 50px;
+    height: auto;
+}
