@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<!-- Fichier : theme.html | Rôle : page du theme du site automobile. -->
+
+<!-- 
+  Fichier : theme.html 
+  Rôle : page du thème du site automobile.
+  projet : site web personnel sur l'automobile 
+-->
 <html lang="fr">
 
+<!-- Informations de la page et lien vers le CSS. -->
+
 <head>
-    <!-- Informations de la page et lien vers le CSS. -->
     <meta charset="UTF-8">
     <title>Thème | En Zone Rouge</title>
     <link rel="stylesheet" href="../CSS/theme.css">
 </head>
 
+<!-- En-tête visible : nom du site et menu de navigation. -->
+
 <body>
-    <!-- En-tête visible : nom du site et menu de navigation. -->
     <header class="site-header">
         <p class="site-name">En Zone Rouge</p>
         <nav>
@@ -27,10 +34,40 @@
         </nav>
     </header>
 
-    <main>
+    <!-- Présentation du sujet du site. -->
 
+    <main>
+        <h1>Pourquoi l'automobile ?</h1>
+
+        <section>
+            <h2>Un sujet qui me passionne</h2>
+            <p>
+                Depuis mon enfance, l'automobile m'intéresse. J'aime notamment
+                les voitures pour leur design et les technologies utilisées.
+                Sur cette page, je présente le thème général de mon site.
+            </p>
+        </section>
+
+        <section>
+            <h2>Plusieurs aspects à découvrir</h2>
+            <p>
+                L'automobile ne concerne pas seulement les véhicules : on peut
+                aussi parler de leur histoire, de leur mécanique et de leur
+                évolution. Les autres pages du site abordent ces sujets.
+            </p>
+
+            <ul class="liens-pages">
+                <li><a href="histoire.html">L'Héritage</a></li>
+                <li><a href="modeles.html">Le Showroom</a></li>
+                <li><a href="galerie.html">Le garage photo</a></li>
+                <li><a href="contact.html">Entrer en contact</a></li>
+            </ul>
+        </section>
     </main>
 
+    <footer class="site-footer">
+        <p>Site réalisé dans le cadre d'un travail scolaire.</p>
+    </footer>
 </body>
 
 </html>

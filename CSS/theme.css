@@ -4,40 +4,78 @@
   Projet : site web personnel sur l'automobile
 */
 
+/*
+  Rôle : mise en forme du menu du site. 
+*/
+
 body {
-  margin: 0;
-  background-color: #eeeeee;
-  color: #222222;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #eeeeee;
+    color: #222222;
+    font-family: Arial, sans-serif;
 }
 
 .site-header {
-  text-align: center;
-  padding: 15px;
-  background-color: #c62828;
-  color: #ffffff;
-  border-top: none;
+    padding: 15px;
+    background-color: #c62828;
+    color: #ffffff;
+    text-align: center;
 }
 
 .site-name {
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: bold;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .menu {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 .menu li {
-  display: inline-block;
-  margin: 4px;
+    display: inline-block;
+    margin: 4px;
 }
 
 .menu a {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .menu a:hover {
-  color: #252525;
+    color: #252525;
+}
+
+/*
+  Rôle : définir la présentation du thème du site automobile
+*/
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+h1,
+h2 {
+    color: #c62828;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+.liens-pages li {
+    margin: 8px 0;
+}
+
+.liens-pages a {
+    color: #c62828;
+}
+
+.site-footer {
+    padding: 12px;
+    background-color: #c62828;
+    color: #ffffff;
+    text-align: center;
 }
