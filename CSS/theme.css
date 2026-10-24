@@ -11,7 +11,7 @@
 body {
     margin: 0;
     background-color: #eeeeee;
-    color: #222222;
+    color: #333333;
     font-family: Arial, sans-serif;
 }
 
@@ -56,9 +56,21 @@ main {
     background-color: #ffffff;
 }
 
-h1,
-h2 {
+h1 {
     color: #c62828;
+    text-align: center;
+}
+
+h2 {
+    color: #111111;
+    border-left: 4px solid #c62828;
+    padding-left: 12px;
+}
+
+.developpement {
+    font-style: italic;
+    color: #096d33;
+    font-size: 15px;
 }
 
 section {
@@ -70,7 +82,12 @@ section {
 }
 
 .liens-pages a {
-    color: #c62828;
+    color: #C0262D;
+    font-weight: bold;
+}
+
+.liens-pages a:hover {
+    color: #252525;
 }
 
 .site-footer {
