@@ -91,3 +91,38 @@ footer {
     width: 50px;
     height: auto;
 }
+
+/*
+Rôle : avoir le menu de navigation en haut de la page
+*/
+
+.site-header {
+  text-align: center;
+  padding: 15px;
+  background-color: #c62828;
+  color: #ffffff;
+  border-top: none;
+}
+
+.site-name {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  padding-left: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 4px;
+}
+
+.menu a {
+  color: #ffffff;
+}
+
+.menu a:hover {
+  color: #252525;
+}
