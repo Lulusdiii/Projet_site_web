@@ -1,0 +1,43 @@
+/*
+  Fichier : theme.css
+  Rôle : définir la présentation du thème du site automobile
+  Projet : site web personnel sur l'automobile
+*/
+
+body {
+  margin: 0;
+  background-color: #eeeeee;
+  color: #222222;
+  font-family: Arial, sans-serif;
+}
+
+.site-header {
+  text-align: center;
+  padding: 15px;
+  background-color: #c62828;
+  color: #ffffff;
+  border-top: none;
+}
+
+.site-name {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  padding-left: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 4px;
+}
+
+.menu a {
+  color: #ffffff;
+}
+
+.menu a:hover {
+  color: #252525;
+}
