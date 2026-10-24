@@ -40,6 +40,10 @@ body {
   color: #252525;
 }
 
+/*
+  Rôle : mise en forme de la page d'accueil.
+*/
+
 main {
   max-width: 800px;
   margin: 20px auto;
