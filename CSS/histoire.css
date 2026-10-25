@@ -1,0 +1,94 @@
+/*
+  Fichier : histoire.css
+  Rôle : définir la présentation de la page d'histoire du site automobile
+  Projet : site web personnel sur l'automobile
+*/
+
+/*
+  Rôle : mise en forme du menu du site. 
+*/
+
+body {
+    margin: 0;
+    background-color: #eeeeee;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+.site-header {
+    padding: 15px;
+    background-color: #c62828;
+    color: #ffffff;
+    text-align: center;
+}
+
+.site-name {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    padding-left: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 4px;
+}
+
+.menu a {
+    color: #ffffff;
+}
+
+.menu a:hover {
+    color: #252525;
+}
+
+/*
+  Rôle : définir la présentation de la page d'histoire du site automobile
+*/
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.site-footer {
+    padding: 12px;
+    background-color: #c62828;
+    color: #ffffff;
+    text-align: center;
+}
