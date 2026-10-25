@@ -56,7 +56,28 @@ main {
     background-color: #ffffff;
 }
 
+h1 {
+    color: #c62828;
+    text-align: center;
+}
 
+.modele {
+    margin: 20px 0;
+    padding: 12px;
+    border: 2px solid #c62828;
+    background-color: #f5f5f5;
+}
+
+.modele h2 {
+    margin-top: 0;
+    color: #c62828;
+    text-align: center;
+    font-style: italic;
+}
+
+.annee {
+    font-weight: bold;
+}
 
 .site-footer {
     padding: 12px;
