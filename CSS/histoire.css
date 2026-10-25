@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    background-color: #eeeeee;
+    background-color: #F0F2F5;
     color: #333333;
     font-family: Arial, sans-serif;
 }
@@ -56,35 +56,50 @@ main {
     background-color: #ffffff;
 }
 
+h1 {
+    color: #c62828;
+    text-align: center;
+}
+
+.chronologie {
+    padding-left: 25px;
+    list-style: none;
+}
+
+.chronologie li {
+    margin-bottom: 70px;
+}
+
+.image-histoire {
+    max-width: 400px;
+    margin: 20px auto;
+    
+}
+
+.image-histoire img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.legende-image {
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+    color: #563131;
+}
+
+.explication {
+    padding-left: 10px;
 
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h2 {
+    color: #111111;
+    border-left: 4px solid #c62828;
+    padding-left: 12px;
+}
 
 .site-footer {
     padding: 12px;
