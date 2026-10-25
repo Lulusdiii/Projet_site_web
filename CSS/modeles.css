@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    background-color: #F0F2F5;
+    background-color: #f0f2f5;
     color: #333333;
     font-family: Arial, sans-serif;
 }
@@ -68,6 +68,10 @@ h1 {
     background-color: #f5f5f5;
 }
 
+.modele li {
+    color: #0c552a;
+}
+
 .modele h2 {
     margin-top: 0;
     color: #c62828;
@@ -77,6 +81,34 @@ h1 {
 
 .annee {
     font-weight: bold;
+    color: #111111;
+}
+
+.image-histoire {
+    max-width: 400px;
+    margin: 20px auto;
+    
+}
+
+.image-histoire img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.legende-image {
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+    color: #563131;
+}
+
+.lien-galerie {
+    color: #c62828;
+}
+
+.lien-galerie:hover {
+    color: #252525;
 }
 
 .site-footer {
