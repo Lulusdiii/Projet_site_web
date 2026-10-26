@@ -1,6 +1,6 @@
 /*
-  Fichier : modeles.css
-  Rôle : définir la présentation de la page des modèles de véhicules
+  Fichier : galerie.css
+  Rôle : définir la présentation de la page de la galerie photo
   Projet : site web personnel sur l'automobile
 */
 
@@ -46,7 +46,7 @@ body {
 }
 
 /*
-  Rôle : définir la présentation de la page d'histoire du site automobile
+  Rôle : définir la présentation de la page de la galerie photo
 */
 
 main {
@@ -67,7 +67,7 @@ h1 {
 
 .photo {
     display: inline-block;
-    width: 50%;
+    width: 45%;
     margin: 10px 1%;
     vertical-align: top;
     border: 2px solid #c62828;
