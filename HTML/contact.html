@@ -34,9 +34,44 @@
         </nav>
     </header>
 
-    <!-- Présentation de la page de contact. -->*
+    <!-- Présentation de la page de contact. -->
 
     <main>
+        <h1>Entrer en contact</h1>
+
+        <p>
+            Utilisez ce formulaire pour préparer un message au sujet du site.
+            Les champs marqués comme obligatoires doivent être remplis.
+        </p>
+
+        <form action="mailto:TON-ADRESSE-MAIL" method="post" enctype="text/plain">
+            <div class="champ">
+                <label for="nom">Nom :</label>
+                <input id="nom" name="nom" type="text" required>
+            </div>
+
+            <div class="champ">
+                <label for="email">Adresse mail :</label>
+                <input id="email" name="email" type="email" required>
+            </div>
+
+            <div class="champ">
+                <label for="age">Âge :</label>
+                <input id="age" name="age" type="number" min="1" max="120" required>
+            </div>
+
+            <div class="champ">
+                <label for="sexe">Sexe :</label>
+                <select id="sexe" name="sexe" required>
+                    <option value="">Choisir une réponse</option>
+                    <option value="feminin">Féminin</option>
+                    <option value="masculin">Masculin</option>
+                    <option value="non-precise">Je préfère ne pas préciser</option>
+                </select>
+            </div>
+
+            <button type="submit">Préparer le courriel</button>
+        </form>
     </main>
 
     <footer class="site-footer">
