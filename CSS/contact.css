@@ -83,7 +83,7 @@ select {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
-    font: inherit;
+    font-family: Arial, sans-serif;
 }
 
 button {
@@ -91,7 +91,7 @@ button {
     background-color: #c62828;
     color: #ffffff;
     border: none;
-    font: inherit;
+    font-family: Arial, sans-serif;
 }
 
 button:hover {
